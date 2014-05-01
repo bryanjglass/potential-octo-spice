@@ -1,0 +1,1 @@
+define("utils/numberFormatter",[],function(){return{format:function(e){return e+" has been formatted"}}}),require.config({baseUrl:"js"}),require(["utils/numberFormatter"],function(e){alert(e.format(1234567))}),define("main",function(){});
